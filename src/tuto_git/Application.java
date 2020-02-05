@@ -19,6 +19,7 @@ public class Application extends Frame {
 		this.setTitle("tutoriel git");
 		this.add(vue);
 		this.pack();
+		this.setLocationRelativeTo(null);
 		this.setVisible(true);
 		
 		//Ferme la fenetre avec la croix
